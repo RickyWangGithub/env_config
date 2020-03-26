@@ -1,0 +1,41 @@
+alias ll='ls -l '
+alias vi='/usr/bin/vim'
+
+# 商品快捷键
+git_dir="~/Documents/"
+alias cdchangjinghua="cd ${git_dir}baidu/ps-aladdin/pae-app-changjinghua ; ls"
+alias cdversion="cd ${git_dir}baidu/ps-aladdin/version ; ls"
+alias cddps="cd ${git_dir}baidu/ps-aladdin/dps ; ls"
+alias cdshop="cd ${git_dir}baidu/ps-shangpin/shop/app/shop ; ls"
+alias cddict="cd ${git_dir}baidu/ps-shangpin/shop-dict ; ls"
+alias cdtextual="cd ${git_dir}baidu/ps-shangpin/textual/app/textual/ ; ls"
+alias cdweather="cd ${git_dir}baidu/ps-aladdin/pae-app-weather; ls"
+alias cdmap="cd ${git_dir}baidu/ps-aladdin/pae-app-alamap; ls"
+alias cdtop1="cd ${git_dir}baidu/ps-aladdin/pae-app-alatop1; ls"
+alias cdaemigrate="cd ${git_dir}baidu/ps-aladdin/aemigrate; ls"
+alias cdvsdf="cd ${git_dir}baidu/ps-aladdin/appengine-vsdf/; ls"
+alias cdvskit="cd ${git_dir}baidu/ps-aladdin/appengine-vsdf/vskit; ls"
+alias cdalaroot="cd ${git_dir}baidu/aladdin/ala-root; ls"
+alias cdkv="cd ${git_dir}baidu/kv ; ls"
+alias cdgit="cd ${git_dir}baidu/ ; ls"
+alias cdtmp="cd ~/Documents/tmp ; ls"
+alias cddoc="cd ~/Documents/; ls"
+alias cdproject="cd ~/Documents/project ; ls"
+
+
+alias j='jobs'
+alias h='hostname'
+alias hi='hostname -i'
+alias tf='tail -f '
+alias p='ps aux'
+alias pg='ps aux |grep '
+alias n='netstat -anp'
+alias ng='netstat -anp|grep '
+alias fgrep='fgrep --color'
+alias f='fgrep --color -rn'
+alias llt='ls -rlt'
+
+export LANG=en_US.UTF-8
+
+#PS1='\[\033[35m\]\d \t \[\033[36m\]\w\[\033[00m\] '
+PS1='\[\033[35m\]\u\[\033[00m\]@\[\033[33m\]\H \[\033[35m\]\D{%Y-%m-%d_%H:%M:%S} \[\033[36m\]\w\[\033[00m\]\n'
