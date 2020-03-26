@@ -1,23 +1,9 @@
 alias ll='ls -l '
 alias vi='/usr/bin/vim'
 
-# 商品快捷键
+# 快捷键
 git_dir="~/Documents/"
-alias cdchangjinghua="cd ${git_dir}baidu/ps-aladdin/pae-app-changjinghua ; ls"
-alias cdversion="cd ${git_dir}baidu/ps-aladdin/version ; ls"
-alias cddps="cd ${git_dir}baidu/ps-aladdin/dps ; ls"
-alias cdshop="cd ${git_dir}baidu/ps-shangpin/shop/app/shop ; ls"
-alias cddict="cd ${git_dir}baidu/ps-shangpin/shop-dict ; ls"
-alias cdtextual="cd ${git_dir}baidu/ps-shangpin/textual/app/textual/ ; ls"
-alias cdweather="cd ${git_dir}baidu/ps-aladdin/pae-app-weather; ls"
-alias cdmap="cd ${git_dir}baidu/ps-aladdin/pae-app-alamap; ls"
-alias cdtop1="cd ${git_dir}baidu/ps-aladdin/pae-app-alatop1; ls"
-alias cdaemigrate="cd ${git_dir}baidu/ps-aladdin/aemigrate; ls"
-alias cdvsdf="cd ${git_dir}baidu/ps-aladdin/appengine-vsdf/; ls"
-alias cdvskit="cd ${git_dir}baidu/ps-aladdin/appengine-vsdf/vskit; ls"
-alias cdalaroot="cd ${git_dir}baidu/aladdin/ala-root; ls"
-alias cdkv="cd ${git_dir}baidu/kv ; ls"
-alias cdgit="cd ${git_dir}baidu/ ; ls"
+
 alias cdtmp="cd ~/Documents/tmp ; ls"
 alias cddoc="cd ~/Documents/; ls"
 alias cdproject="cd ~/Documents/project ; ls"
